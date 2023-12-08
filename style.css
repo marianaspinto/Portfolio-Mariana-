@@ -3,10 +3,37 @@
   padding: 0;
 }
 
+header {
+  background: linear-gradient(to right, #FA767C 65%, #5D6DCD 50%);  
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  width: 6rem;
+}
 .inicio {
   background: linear-gradient(to right, #FA767C 65%, #5D6DCD 50%);
   height: 100vh;
+  position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0 100px 100px 120px;
+  margin-top: 5px;
 }
+
+.mariana {
+  padding: 10px;
+  width: 20rem;
+  border-radius: 80px;
+  margin-left: 500px;
+  margin-top: 0;
+  outline: 6px solid #ffffff;
+}
+
+h1 {
+  color: #ffffff;
+}
+
